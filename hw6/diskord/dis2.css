@@ -1,0 +1,473 @@
+.zaholovok{
+    font-family: var(--font-headline);
+    font-size: 50px;
+    margin: 0 auto;
+    z-index: 1;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+}
+:root {
+    --font-headline: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-primary: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text {
+    width: 780px;
+    font-size: clamp(16px, 2vw, 20px);
+    z-index: 1;
+    margin-top: 40px;
+}
+.imagne{
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    line-height: 1.625;
+    max-width: 100%;
+    height: 550px;
+    margin: 0;
+    z-index: 1;
+}
+/*Все що стосується картинок*/
+
+.picture:nth-child(1) {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1280px;
+}
+
+.picture:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: none;
+    margin-left: -1030px;
+    transform: none;
+}
+.picture:nth-child(3){
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    margin-left: 370px;
+}
+
+/*Перша сторінка*/
+.header1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+.page1 {
+    width: 100%;
+    height: 100%;
+    background-color: #404eed;
+    position: relative;
+    overflow: hidden;
+}
+
+    body {
+        margin: 0;
+        padding: 0;
+        min-width: 1000px;
+    }
+
+.link:hover {
+    text-decoration: underline;
+}
+.link{
+    color: #FFFF;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content; /* 100% висоти вікна */
+    margin: 0;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: var(--font-primary);
+}
+
+.button{
+    color: #23272A;
+    position: relative;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #FFFF;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    text-decoration: none;
+}
+.logo{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    color: #FFFF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    align-items: center;
+}
+.button1{
+    font-family: var(--font-primary) ;
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 2;
+    font-size: 20px;
+    border: 2px solid #23272A;
+    border-radius: 50px;
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+.button2{
+    font-family: var(--font-primary) ;
+    color: #23272A;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 2;
+    font-size: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    margin: 16px 32px;
+}
+#batony{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Друга сторінка*/
+.page2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.pamahite{
+    padding: 120px 40px;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textna2str{
+    font-size: 48px;
+    font-family: var(--font-headline);
+    line-height: 120%;
+    font-weight: 700;
+    width: 400px;
+    margin: 0 10px 0 145px;
+}
+.textikna2str{
+    font-size: 20px;
+    font-family: var(--font-primary);
+    line-height: 170%;
+    width: 400px;
+    margin: 24px 10px 0 145px;
+    color: #23272A;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #F6F6F6;
+}
+#texticstr3{
+    margin: 20px 0 0 0;
+}
+#textstr3{
+    margin: 0 100px 0 0;
+}
+.pamahite2{
+    padding: 120px 40px 80px;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    align-items: center;
+}
+.textna5str{
+    font-size: 40px;
+    font-family: var(--font-headline);
+    font-weight: 600;
+    width: 960px;
+    height: 76px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+}
+.str5{
+    font-size: 19px;
+    font-family: var(--font-primary);
+    line-height: 170%;
+    margin: 24px 0 0 0 ;
+    width: 960px;
+    height: 76px;
+    color: #23272A;
+    display: inline-block;
+    vertical-align: middle;
+}
+.button3{
+    font-family: var(--font-primary) ;
+    color: #FFFFFF;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #5865F2;
+    border-radius: 50px;
+    background-color: #5865F2;
+    line-height: 20px;
+    margin: 40px 0 0;
+    padding: 16px 32px;
+}
+
+.page6{
+    padding: 0 40px 120px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textna6str{
+    position: relative;
+    font-size: 30px;
+    font-family: var(--font-headline);
+    font-weight: bold;
+    width: fit-content;
+    vertical-align: middle;
+    margin: 30px 0 0 0;
+    line-height: 95%;
+    z-index: 2;
+}
+.container {
+    position: relative;
+}
+
+.picture3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Забезпечує, що картинка буде знаходитися за текстом */
+}
+#footer{
+    background-color: #23272A;
+    padding: 80px 0 64px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    padding: 0 40px;
+    width: 1160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lenguage{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+#prapor{
+    margin-right: 8px;
+}
+.column{
+    width: 180px;
+    height: 365px;
+    margin:  0 0 40px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+#c1{
+    width: 280px;
+    height: 340px;
+    margin:  0 0 56px;
+}
+.color{
+    color: #5865F2;
+    margin-bottom: 20px;
+}
+.link2:hover {
+    text-decoration: underline;
+}
+.link2{
+    color: #FFFF;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--font-primary);
+}
+.blankcolumn{
+    width: 80px;
+    height: 396px;
+}
+
+.div2{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    height: 71px;
+    border-top: 1px solid #5865F2;
+    box-sizing: border-box;
+}
+.alo{
+    color: #FFFFFF;
+    background-color: #5865F2;
+    position: relative;
+    width: 150px;
+    height: fit-content;
+    border: 1px solid #5865F2;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    text-decoration: none;
+}
+.button, button2, button1, button3{
+    transition: box-shadow 0.3s ease;
+}
+
+.button, button2:hover {
+    color: #5865F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.button2:hover{
+    color: #5865F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.button3:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.button1:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.alo {
+    transition: background-color 0.3s ease;
+}
+
+.alo:hover {
+    background-color: rgba(120, 130, 255, 0.9);
+}
+.link3{
+    color: #FFFF;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 20px 0 0;
+}
+#kinec{
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 1024px){
+body, html {
+    min-width: 824px;
+    .one{
+        display: none;
+    }
+    .header1{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .imagne{
+        position: relative;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: #FFFF;
+        line-height: 1.625;
+        height: 550px;
+        margin-top: 15%;
+        margin-left: 40px;
+        z-index: 1;
+    }
+    #batony {
+        flex-direction: column;
+        justify-items: right;
+        align-items: flex-start;
+    }
+    .button2{
+        margin-left: 0;
+    }
+    .text{
+        width: 500px;
+    }
+}
+}
+@media screen and (max-width: 848px) {
+    body, html {
+        min-width: 320px;
+    }
+}
